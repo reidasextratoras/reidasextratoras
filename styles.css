@@ -343,6 +343,10 @@ h3 {
     margin: 3%;
 }
 
+.btn{
+    margin: 5% auto 0%;
+}
+
 #btnForm {
     margin-top: 2%;
 }
@@ -383,7 +387,7 @@ button {
 
 /* SECTION FOOTER */
 #footer{
-    background-color: #006b5493;
+    background-color: #abb4b293;
 }
 
 #footerContainer{
@@ -392,6 +396,7 @@ button {
 
 #footer p{
     margin: 0px;
+    color: #000000;
 }
 
 #footer a{
@@ -402,7 +407,7 @@ button {
 }
 
 #footer a:hover {
-    color: rgb(88, 88, 88);
+    color: rgb(63, 63, 63);
 }
 
 /* RESPONSIVIDADE */
@@ -414,7 +419,7 @@ button {
 
 @media (max-width: 991px) {
     .btn{
-        margin-top: 3%;
+        margin-top: 5%;
     }
     p {
         padding-bottom: 3%;
@@ -432,9 +437,6 @@ button {
     }
     #beneficios-da-limpeza-de-estofados img{
         margin-top: 2%;
-    }
-    #beneficios-da-limpeza-de-estofados h2 {
-        padding-bottom: 0%;
     }
     #h1main {
         font-size: 3rem;
@@ -485,20 +487,43 @@ button {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
     #h1main{
         font-size: 1.6rem;
-        margin-bottom: 2%;
+        margin: 12% auto;
+    }
+    #topicos-main {
+        margin: 12% auto;
     }
     h2 {
         font-size: 1.4rem;
+        margin: 0;
+    }
+
+    .container-fluid,
+    #beneficios-da-limpeza-de-estofados,
+    .resultados-limpeza-de-estofados-container,
+    .contactsContainer,
+    .sobre-rei-das-extratoras-container,
+    #footerContainer {
+        padding: 15% 12%;
+    }
+    .higienizacao-e-limpeza-de-estofados-container {
+        padding: 12% 5%;
     }
     #beneficios-da-limpeza-de-estofados h3,
     #sobre-rei-das-extratoras h3 {
         font-size: 1.2rem;
     }
-    #higienizacao-e-limpeza-de-estofados .row1 {
-        padding: 12% 6%;
+    #higienizacao-e-limpeza-de-estofados img {
+        width: 60%;
+        margin: 5% auto;
+    }
+    #beneficios-da-limpeza-de-estofados img {
+        width: 50%;
+    }
+    #higienizacao-e-limpeza-de-estofados .row {
+        padding: 10% 4%;
     }
     #sobre-rei-das-extratoras h3 {
         margin: 2% auto;
@@ -508,6 +533,7 @@ button {
     }
     #pMain {
         font-size: 1.1rem;
+        margin: 5% auto;
     }
     p {
         font-size: 1rem;
@@ -521,17 +547,6 @@ button {
     h2 {
         font-size: 1.1rem;
         margin-top: 0%;
-    }
-    .higienizacao-e-limpeza-de-estofados-container {
-        padding: 12% 5%;
-    }
-    .container-fluid,
-    #beneficios-da-limpeza-de-estofados,
-    .resultados-limpeza-de-estofados-container,
-    .contactsContainer,
-    .sobre-rei-das-extratoras-container,
-    #footerContainer {
-        padding: 12% 12%;
     }
     #beneficios-da-limpeza-de-estofados h3,
     #sobre-rei-das-extratoras h3 {
