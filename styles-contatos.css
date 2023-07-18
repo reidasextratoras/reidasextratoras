@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #00a27f, #ffffff);
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+
+  #imgContatos {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; /* Espaçamento vertical entre a imagem e os títulos */
+    margin-top: 20px;
+  }
+
+  h1, h2 {
+    margin-bottom: 10px; /* Espaçamento vertical entre os títulos */
+  }
+
+  #main-contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 35vh;
+  }
+
+  .link-item {
+    background-color: #00a27f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+
+  .link-item i {
+    margin-right: 10px;
+  }
+
+  .link-item:hover {
+    background-color: #e2e9e7;
+  }
+
+  .footer-contatos {
+    color: #2b2b2b;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer-contatos-container {
+    display: flex;
+    flex-direction: column; /* Alteramos a direção para vertical */
+    align-items: center; /* Centraliza os elementos verticalmente */
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%; /* Ocupa toda a altura disponível no footer */
+  }
+
+  .footer-info {
+    font-size: 20px;
+    margin-bottom: 10px; /* Adicionamos um espaçamento entre o parágrafo e os ícones */
+  }
+
+  .footer-info p {
+    margin: 0;
+  }
+
+  .social-icons {
+    display: flex;
+  }
+
+  .social-icons a {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .fa {
+    color: #2b2b2b;
+    font-size: 24px;
+    text-decoration: none;
+  }
