@@ -4,6 +4,9 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh; /* Ocupa toda a altura da janela do navegador */
+    position: relative; /* Define o posicionamento como relativo para o footer absoluto */
+    display: flex;
+    flex-direction: column;
   }
 
   header {
@@ -54,6 +57,9 @@ body {
   }
 
   .footer-contatos {
+    bottom: 0; /* Alinha o footer ao final do elemento pai (body) */
+    left: 0; /* Alinha o footer à esquerda */
+    right: 0; /* Alinha o footer à direita */
     color: #2b2b2b;
     text-align: center;
     padding: 20px;
