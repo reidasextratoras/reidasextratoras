@@ -32,12 +32,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 20px; /* Espaçamento interno ajustado */
-    margin: 20px 0; /* Espaçamento externo para controlar a distância entre as seções */
-    max-height: 70vh; /* Altura máxima de 70% da altura da janela do navegador */
-    overflow-y: auto; /* Adiciona barra de rolagem vertical caso o conteúdo seja maior que a altura máxima */
-    }
+    flex: 1; /* Ocupa o espaço restante da página */
+    margin: 0; /* Remover margens superior e inferior */
+    padding: 40px 20px; /* Espaçamento interno ajustado para cima e para baixo */
+  }
 
   .link-item {
     background-color: #00a27f;
@@ -60,6 +58,7 @@ body {
   }
 
   .footer-contatos {
+    position: absolute;
     bottom: 0; /* Alinha o footer ao final do elemento pai (body) */
     left: 0; /* Alinha o footer à esquerda */
     right: 0; /* Alinha o footer à direita */
