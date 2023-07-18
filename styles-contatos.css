@@ -29,6 +29,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10% 0% 10% 0%;
     flex: 1; /* Ocupa o espaço restante da página */
   }
 
