@@ -12,6 +12,7 @@ body {
   header {
     text-align: center;
     padding: 20px;
+    margin: 0;
     color: white;
   }
 
@@ -32,9 +33,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0% 0% 0% 0%;
-    flex: 1; /* Ocupa o espaço restante da página */
-  }
+    padding: 20px; /* Espaçamento interno ajustado */
+    margin: 20px 0; /* Espaçamento externo para controlar a distância entre as seções */
+    max-height: 70vh; /* Altura máxima de 70% da altura da janela do navegador */
+    overflow-y: auto; /* Adiciona barra de rolagem vertical caso o conteúdo seja maior que a altura máxima */
+    }
 
   .link-item {
     background-color: #00a27f;
