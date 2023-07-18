@@ -3,6 +3,7 @@ body {
     background-image: linear-gradient(to bottom, #00a27f, #ffffff);
     margin: 0;
     padding: 0;
+    min-height: 100vh; /* Ocupa toda a altura da janela do navegador */
   }
 
   header {
@@ -28,7 +29,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Ajustamos para ocupar toda a altura da tela */
+    flex: 1; /* Ocupa o espaço restante da página */
   }
 
   .link-item {
@@ -55,6 +56,7 @@ body {
     color: #2b2b2b;
     text-align: center;
     padding: 20px;
+    flex-shrink: 0; /* Evita que o footer encolha quando há pouco conteúdo */
   }
 
   .footer-contatos-container {
@@ -77,6 +79,7 @@ body {
 
   .social-icons {
     display: flex;
+    margin-top: 20px; /* Adicionamos um espaçamento entre o parágrafo e os ícones */
   }
 
   .social-icons a {
